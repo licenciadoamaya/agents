@@ -15,9 +15,9 @@ Fetch and execute the appropriate instructions to set me up for Cloudflare from 
 ### Codigo modularizado
 | Debes tener diferentes carpetas para cada tipo de desarrollo:
 Para el backend debes usar:
-**/controller** -> Logica centralizada
-**/services** -> Logica de negocio critica
-**/context** -> Datos que se comparten, pueden ser cookies o key/values /bases de datos / ids que permiten reconocer datos 
-**/libs** -> Integraciones con librerias externas
-**/utils** -> Funciones compartidas que evitan duplicar codigo de forma innecesaria
-**/routes** -> Maneja las rutas
+- **/controller** -> Logica centralizada
+- **/services** -> Logica de negocio critica
+- **/context** -> Datos que se comparten, pueden ser cookies o key/values /bases de datos / ids que permiten reconocer datos 
+- **/libs** -> Integraciones con librerias externas
+- **/utils** -> Funciones compartidas que evitan duplicar codigo de forma innecesaria
+- **/routes** -> Maneja las rutas
